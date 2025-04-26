@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: foretell-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: foretell
+  template:
+    metadata:
+      labels:
+        app: foretell
+    spec:
+      containers:
+      - name: foretell
+        image: tannujha610/foretell-weather:latest
+        ports:
+        - containerPort: 80
