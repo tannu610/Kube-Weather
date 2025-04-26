@@ -23,6 +23,11 @@ It also integrates basic monitoring with Prometheus and Grafana.
 
 ---
 
+## 👤 Maintained by
+[Tannu Jha](https://linkedin.com/in/tannu-jha)
+
+---
+
 ## 🔧 Project Setup
 
 ### 1. Clone the repository
@@ -31,6 +36,3 @@ git clone https://github.com/tannu610/weather-app.git
 cd weather-app
 
 
-
-## 👤 Maintained by
-[Tannu Jha](https://linkedin.com/in/tannu-jha)
