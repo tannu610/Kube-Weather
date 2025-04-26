@@ -1,22 +1,36 @@
-# 🌦️ Kube-Weather (In Progress)
+# 🌦️ Kube-Weather: Weather Forecast App on Kubernetes
 
-This is a Dockerized weather forecast web application that will be deployed on a Kubernetes cluster, integrated with CI/CD and monitoring tools like Prometheus & Grafana.
+This project demonstrates how to containerize a static weather forecast web application using Docker, deploy it on a Kubernetes cluster, and automate the process using CI/CD practices.  
+It also integrates basic monitoring with Prometheus and Grafana.
 
-## 🚧 Project Status
-🛠️ Currently under development — core features and configurations are being added.
+---
 
-## 💡 Planned Tech Stack
-- HTML, CSS, JavaScript (Frontend)
-- Docker, Nginx
-- Kubernetes (Minikube)
-- Jenkins (for CI/CD)
-- Prometheus & Grafana (Monitoring)
+## 🚀 Tech Stack
+- **Frontend**: HTML, CSS, JavaScript
+- **Containerization**: Docker
+- **Container Orchestration**: Kubernetes (Minikube / AWS EKS)
+- **Automation**: Jenkins CI/CD (optional)
+- **Monitoring**: Prometheus, Grafana
+- **Web Server**: Nginx
 
-## 🔗 Live Demo
-🌐 [https://fortell.netlify.app](https://fortell.netlify.app)
+---
 
-## 📅 Update Timeline
-Files and configurations will be uploaded over the next few days.
+## 📦 Features
+- Dockerized a static frontend web application using Nginx.
+- Deployed on a Kubernetes cluster using Deployment and Service manifests.
+- Built a CI/CD pipeline using Jenkins for automated Docker build and Kubernetes deployment.
+- Integrated Prometheus and Grafana for cluster and application monitoring.
+
+---
+
+## 🔧 Project Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/tannu610/weather-app.git
+cd weather-app
+
+
 
 ## 👤 Maintained by
 [Tannu Jha](https://linkedin.com/in/tannu-jha)
