@@ -9,7 +9,7 @@ It also integrates basic monitoring with Prometheus and Grafana.
 - **Frontend**: HTML, CSS, JavaScript
 - **Containerization**: Docker
 - **Container Orchestration**: Kubernetes (Minikube / AWS EKS)
-- **Automation**: Jenkins CI/CD (optional)
+- **Automation**: Jenkins CI/CD
 - **Monitoring**: Prometheus, Grafana
 - **Web Server**: Nginx
 
